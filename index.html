@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <title>Programming Project: Brainstorming</title>
+      <meta charset="utf-8">
+      <link rel="icon" type="image/x-icon" href="favicon.ico"/>
+    </head>
+    <body>
+      <header>
+        <h1>Programming Project: Brainstorming</h1>
+        <h2>Topic: General Brainstorm Session #1</h2>
+        <h2>Date: 10/02/2021</h2>
+
+        <h2>Main Menu</h2>
+        <nav>
+          <ul>
+            <li><a href="#agenda">Agenda</a></li>
+            <li><a href="#attendance">Attendance</a></li>
+            <li><a href="#unfinished-business">Unfinished Business</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#user-requirements">User Requirements</a></li>
+            <li><a href="#misc-notes">Misc Notes</a></li>
+            <li><a href="#meeting-recording">Meeting Recording</a></li>
+            <li><a href="#sample-form">Sample Form</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <hr/>
+
+      <main>
+        <section>
+          <h2 id="agenda">Agenda</h2>
+          <details>
+            <summary>Details for agenda</summary>
+            <ol>
+              <li>Unfinished business: Project Name</li>
+              <li>Features</li>
+              <li>User requirements</li>
+              <li>Misc notes</li>
+            </ol>
+          </details>
+        </section>
+
+        <section>
+          <h2 id="attendance">Attendance</h2>
+          <ul>
+            <li>Justin Butera - <em>CEO</em></li>
+            <li>Person McPerson - <em>Designer</em></li>
+            <li>Sample McSample - <em>Financial</em></li>
+            <li>Programmer McProgrammer - <em>Programmer</em></li>
+          </ul>
+        </section>
+
+        <section>
+          <h2 id="unfinished-business">Unfinished business: Project Name</h2>
+            <strong>Current Name:</strong> Programming Project<br/>
+            <p>
+              <em>Notes: Basic name, could be more unique to and descriptive of the product</em>
+            </p>
+          </ol>
+        </section>
+
+        <section>
+          <h2 id="features">Features</h2>
+          <h3>Authentication</h3>
+          <ul>
+            <li>Login/log out system</li>
+            <li>Sign up for an account (look into account security)</li>
+          </ul>
+
+          <h3>Ideas for main focus of project</h3>
+          <ul>
+            <li>Schedule planner</li>
+            <li>Todo list</li>
+            <li>Calendar</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2 id="user-requirements">User requirements</h2>
+          <ol>
+            <li>Internet connection is <span>required</span></li>
+            <li>Any browser <b>(except for IE)</b> will work fine</li>
+          </ol>
+        </section>
+
+        <section>
+          <h2 id="misc-notes">Misc Notes</h2>
+          <h3>Todo list</h3>
+          <ul>
+            <li>Need to make an improved/updated diagram of the features</li>
+          </ul>
+
+          <h3>Our current diagrams</h3>
+          <img src="virtual-diagram.jpg" alt="Virtual diagram of features" />
+          <img src="whiteboard-diagram.jpg" alt="Whiteboard diagram of features" />
+        </section>
+
+        <section>
+          <h2 id="meeting-recording">Meeting Recording</h2>
+          <h3>Video</h3>
+          <video controls width="300">
+            <source src="meeting-video.mp4" type="video/mp4">
+            <p>
+              Your browser does not support video via HTML5. 
+              Click <a href="meeting-video.mp4">here</a> for the video.
+            </p>
+          </video>
+
+          <h3>Audio</h3>
+          <audio controls src="meeting-audio.mp3">
+            Your browser does not support audio via HTML5.
+            Click <a href="meeting-audio.mp3">here</a> for the audio.
+          </audio>
+        </section>
+
+        <hr/>
+
+        <section>
+          <h2 id="sample-form">Sample Form</h2>
+          <div>
+            <form>
+              <fieldset>
+                <legend>Choose an animal</legend>
+
+                <input type="radio" id="dog" name="animal"/>
+                <label for="dog">Dog</label><br/>
+
+                <input type="radio" id="cat" name="animal"/>
+                <label for="cat">Cat</label><br/>
+              </fieldset><br/>
+
+              <fieldset>
+                <legend>Programming language</legend>
+
+                <label for="programming-language">Choose a programming language</label>
+                <input list="programming-languages" id="programming-language" name="programming-language"><br/>
+                
+                <datalist id="programming-languages">
+                  <option value="c">C</option>
+                  <option value="c-plus-plus">C++</option>
+                  <option value="c-sharp">C#</option>
+                  <option value="java">Java</option>
+                  <option value="python">Python</option>
+                  <option value="javascript">JavaScript</option>
+                  <option value="typescript">TypeScript</option>
+                  <option value="ruby">Ruby</option>
+                  <option value="rust">Rust</option>
+                </datalist>
+
+                <label for="programming-language-explanation">Please write a sentence about why that is your favorite programming language:</label><br/>
+                <textarea id="programming-language-explanation" name="programming-language-explanation"></textarea>
+              </fieldset><br/>
+
+              <fieldset>
+                <legend>Food</legend>
+
+                <input type="checkbox" id="chocolate" name="chocolate"/>
+                <label for="chocolate">Check this box if you like chocolate</label><br/>
+
+                <label for="favorite-food">What is your favorite food?</label>
+                <input type="text" id="favorite-food" name="favorite-food" />
+              </fieldset><br/>
+
+              <fieldset>
+                <legend>Other questions</legend>
+                
+                <label for="todays-date">What is today's date?</label>
+                <input type="date" id="todays-date" name="todays-date" /><br/>
+
+                <label for="cse-class">Select a CSE class</label>
+                <select id="cse-class" name="cse-class">
+                  <option value="cse-100">CSE 100</option>
+                  <option value="cse-101">CSE 101</option>
+                  <option value="cse-105">CSE 105</option>
+                  <option value="cse-110">CSE 110</option>
+                </select>
+              </fieldset><br/>
+
+              <button type="submit">Submit form</button>
+            </form>
+          </div>
+        </section>
+      </main>
+
+      <hr/>
+
+      <footer>
+        <i>Sample Company Inc.</i>
+      </footer>
+    </body>
+</html>
