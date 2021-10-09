@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+
+/* Set main custom font */
+body {
+  font-family: 'Sora', sans-serif;
+}
+
+/* Header h2 center alignment */
+header h2 {
+  width: 50vw;
+  margin: auto;
+  text-align: center;
+}
+
 /* Footer text styling */
 footer * {
   color: darkviolet;
@@ -12,7 +26,10 @@ h1#project-name {
   padding-bottom: 5px;
   padding-left: 10px;
   padding-right: 10px;
-  border-radius: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(142, 68, 173);
+  border-radius: 10pt;
 }
 
 /* Add underline to labels for h2 headers */
@@ -23,4 +40,37 @@ h2 > .header-label {
 /* h3 text styling */
 h3 {
   color: hsl(187.5, 6%, 27%);
+}
+
+/* Agenda summary border */
+h2#agenda ~ details {
+  border: 1px solid black;
+  border-radius: 0.25cm;
+  padding: 10px 5px 10px 10px;
+}
+
+/* Add spacing between sections */
+section {
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+/* Ensure first section does not have top margin */
+section:first-of-type + section {
+  margin-top: 0;
+}
+
+/* Job role styling */
+.job-role {
+  margin: 5px 10px 5px 10px;
+  background-color: rgba(127, 140, 141, 0.15);
+  color: rgb(127,140,141);
+  border-radius: 10px;
+  padding: 4px 5px;
+}
+
+h2#attendance + ul > li {
+  margin-top: 1.2ex;
 }
