@@ -115,3 +115,8 @@ h2#attendance + ul > li {
   row-gap: 20px;
   column-gap: 20px;
 }
+
+/* Hide hidden header/footer text */
+footer .footer-hidden, header .header-hidden {
+  display: none;
+}
