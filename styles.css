@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
 
 /* Set main custom font */
-body {
+* {
   font-family: 'Sora', sans-serif;
 }
 
@@ -13,7 +13,7 @@ header h2 {
 }
 
 /* Footer text styling */
-footer * {
+footer {
   color: darkviolet;
 }
 
@@ -73,4 +73,45 @@ section:first-of-type + section {
 
 h2#attendance + ul > li {
   margin-top: 1.2ex;
+}
+
+/* Menu bar styling */
+.menu-bar-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: darkgray;
+  padding: 10px;
+  border-radius: 10px;
+  flex-wrap: wrap;
+}
+
+.menu-bar-container a {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+  color: black;
+  text-decoration: none;
+}
+
+/* Menu bar item is bold when hovered */
+.menu-bar-container a:hover {
+  font-weight: bolder;
+}
+
+/* Ensure flex becomes a column when size is phone screen or smaller */
+@media (max-width: 500px) {
+  .menu-bar-container {
+    flex-direction: column !important;
+  }
+}
+
+/* Add grid to diagram pictures */
+.diagram-container {
+  display: grid;
+  grid-template-columns: 200px 200px;
+  grid-template-rows: auto;
+  row-gap: 20px;
+  column-gap: 20px;
 }
