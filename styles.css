@@ -12,7 +12,10 @@ h1#project-name {
   padding-bottom: 5px;
   padding-left: 10px;
   padding-right: 10px;
-  border-radius: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(142, 68, 173);
+  border-radius: 10pt;
 }
 
 /* Add underline to labels for h2 headers */
