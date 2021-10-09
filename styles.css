@@ -131,9 +131,11 @@ footer .footer-hidden, header .header-hidden {
 }
 
 /* Set textarea max size */
-textarea {
+form textarea {
   max-width: 500px;
   max-height: 200px;
+  min-width: 50px;
+  min-height: 50px;
 }
 
 /* Submit button styling */
