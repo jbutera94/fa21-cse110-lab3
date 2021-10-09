@@ -5,6 +5,13 @@ body {
   font-family: 'Sora', sans-serif;
 }
 
+/* Header h2 center alignment */
+header h2 {
+  width: 50vw;
+  margin: auto;
+  text-align: center;
+}
+
 /* Footer text styling */
 footer * {
   color: darkviolet;
