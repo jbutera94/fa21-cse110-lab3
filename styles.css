@@ -41,3 +41,16 @@ h2#agenda ~ details {
   border-radius: 0.25cm;
   padding: 10px 5px 10px 10px;
 }
+
+/* Add spacing between sections */
+section {
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+/* Ensure first section does not have top margin */
+section:first-of-type + section {
+  margin-top: 0;
+}
