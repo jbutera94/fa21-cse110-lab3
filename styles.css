@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
 
 /* Set main custom font */
-body {
+* {
   font-family: 'Sora', sans-serif;
 }
 
@@ -13,7 +13,7 @@ header h2 {
 }
 
 /* Footer text styling */
-footer * {
+footer {
   color: darkviolet;
 }
 
