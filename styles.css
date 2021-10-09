@@ -1,0 +1,26 @@
+/* Footer text styling */
+footer * {
+  color: darkviolet;
+}
+
+/* Project name title styling */
+h1#project-name {
+  text-align: center;
+  color: rgb(142, 68, 173);
+  background-color: rgba(142, 68, 173, 0.15);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+}
+
+/* Add underline to labels for h2 headers */
+h2 > .header-label {
+  text-decoration: underline;
+}
+
+/* h3 text styling */
+h3 {
+  color: hsl(187.5, 6%, 27%);
+}
