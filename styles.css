@@ -25,7 +25,7 @@ footer span {
 }
 
 /* Project name title styling */
-h1#project-name {
+#project-name {
   text-align: center;
   color: rgb(142, 68, 173);
   background-color: rgba(142, 68, 173, 0.15);
@@ -59,7 +59,7 @@ h2#agenda ~ details {
 }
 
 /* Add spacing between sections */
-section {
+main section {
   margin-top: 4rem;
   margin-bottom: 1rem;
   margin-left: 0.5em;
@@ -85,7 +85,7 @@ h2#attendance + ul > li {
 }
 
 /* Menu bar styling */
-.menu-bar-container {
+div.menu-bar-container {
   display: flex;
   flex-direction: row;
   margin-top: 20px;
@@ -131,17 +131,27 @@ footer .footer-hidden, header .header-hidden {
 }
 
 /* Set textarea max size */
-textarea {
+form textarea {
   max-width: 500px;
   max-height: 200px;
+  min-width: 50px;
+  min-height: 50px;
 }
 
 /* Submit button styling */
 button[type="submit"] {
-  background-color: purple;
+  background-color: rgba(128, 0, 128, 0.6);
   color: white;
   border-radius: 10px;
   padding: 5px;
   height: 40px;
   width: 120px;
+}
+
+button[type="submit"]:hover {
+  background-color: rgba(128, 0, 128, 0.7);
+}
+
+button[type="submit"]:active {
+  background-color: rgb(128, 0, 128, 0.9);
 }
