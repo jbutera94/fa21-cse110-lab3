@@ -84,6 +84,7 @@ h2#attendance + ul > li {
   background-color: darkgray;
   padding: 10px;
   border-radius: 10px;
+  flex-wrap: wrap;
 }
 
 .menu-bar-container a {
@@ -97,4 +98,11 @@ h2#attendance + ul > li {
 /* Menu bar item is bold when hovered */
 .menu-bar-container a:hover {
   font-weight: bolder;
+}
+
+/* Ensure flex becomes a column when size is phone screen or smaller */
+@media (max-width: 500px) {
+  .menu-bar-container {
+    flex-direction: column !important;
+  }
 }
