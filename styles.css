@@ -74,3 +74,27 @@ section:first-of-type + section {
 h2#attendance + ul > li {
   margin-top: 1.2ex;
 }
+
+/* Menu bar styling */
+.menu-bar-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: darkgray;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.menu-bar-container a {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+  color: black;
+  text-decoration: none;
+}
+
+/* Menu bar item is bold when hovered */
+.menu-bar-container a:hover {
+  font-weight: bolder;
+}
