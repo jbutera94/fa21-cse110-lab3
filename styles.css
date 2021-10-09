@@ -59,7 +59,7 @@ h2#agenda ~ details {
 }
 
 /* Add spacing between sections */
-section {
+main section {
   margin-top: 4rem;
   margin-bottom: 1rem;
   margin-left: 0.5em;
