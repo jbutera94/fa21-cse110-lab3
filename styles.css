@@ -129,3 +129,9 @@ h2#attendance + ul > li {
 footer .footer-hidden, header .header-hidden {
   display: none;
 }
+
+/* Set textarea max size */
+textarea {
+  max-width: 500px;
+  max-height: 200px;
+}
