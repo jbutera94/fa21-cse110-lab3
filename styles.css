@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+
+/* Set main custom font */
+body {
+  font-family: 'Sora', sans-serif;
+}
+
 /* Footer text styling */
 footer * {
   color: darkviolet;
@@ -26,4 +33,11 @@ h2 > .header-label {
 /* h3 text styling */
 h3 {
   color: hsl(187.5, 6%, 27%);
+}
+
+/* Agenda summary border */
+h2#agenda ~ details {
+  border: 1px solid black;
+  border-radius: 0.25cm;
+  padding: 10px 5px 10px 10px;
 }
