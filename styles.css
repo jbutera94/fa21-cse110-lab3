@@ -15,6 +15,13 @@ header h2 {
 /* Footer text styling */
 footer {
   color: darkviolet;
+  position: relative;
+}
+
+/* Put span text on the right side of the footer */
+footer span {
+  position: absolute;
+  right: 10px;
 }
 
 /* Project name title styling */
@@ -34,7 +41,9 @@ h1#project-name {
 
 /* Add underline to labels for h2 headers */
 h2 > .header-label {
+  margin-top: 5px;
   text-decoration: underline;
+  display: block;
 }
 
 /* h3 text styling */
@@ -114,4 +123,25 @@ h2#attendance + ul > li {
   grid-template-rows: auto;
   row-gap: 20px;
   column-gap: 20px;
+}
+
+/* Hide hidden header/footer text */
+footer .footer-hidden, header .header-hidden {
+  display: none;
+}
+
+/* Set textarea max size */
+textarea {
+  max-width: 500px;
+  max-height: 200px;
+}
+
+/* Submit button styling */
+button[type="submit"] {
+  background-color: purple;
+  color: white;
+  border-radius: 10px;
+  padding: 5px;
+  height: 40px;
+  width: 120px;
 }
