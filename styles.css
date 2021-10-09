@@ -85,7 +85,7 @@ h2#attendance + ul > li {
 }
 
 /* Menu bar styling */
-.menu-bar-container {
+div.menu-bar-container {
   display: flex;
   flex-direction: row;
   margin-top: 20px;
