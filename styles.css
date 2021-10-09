@@ -106,3 +106,12 @@ h2#attendance + ul > li {
     flex-direction: column !important;
   }
 }
+
+/* Add grid to diagram pictures */
+.diagram-container {
+  display: grid;
+  grid-template-columns: 200px 200px;
+  grid-template-rows: auto;
+  row-gap: 20px;
+  column-gap: 20px;
+}
